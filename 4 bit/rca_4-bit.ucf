@@ -1,0 +1,36 @@
+#################################################################
+# INPUTS - DIP SWITCHES
+#################################################################
+
+# a[3:0]
+NET "a[0]" LOC = C17 | IOSTANDARD = LVCMOS33 | PULLUP;  # DP8
+NET "a[1]" LOC = C18 | IOSTANDARD = LVCMOS33 | PULLUP;  # DP7
+NET "a[2]" LOC = D17 | IOSTANDARD = LVCMOS33 | PULLUP;  # DP6
+NET "a[3]" LOC = D18 | IOSTANDARD = LVCMOS33 | PULLUP;  # DP5
+
+# b[3:0]
+NET "b[0]" LOC = E18 | IOSTANDARD = LVCMOS33 | PULLUP;  # DP4
+NET "b[1]" LOC = E16 | IOSTANDARD = LVCMOS33 | PULLUP;  # DP3
+NET "b[2]" LOC = F18 | IOSTANDARD = LVCMOS33 | PULLUP;  # DP2
+NET "b[3]" LOC = F17 | IOSTANDARD = LVCMOS33 | PULLUP;  # DP1
+
+
+#################################################################
+# INPUT - PUSH BUTTON (cin)
+#################################################################
+
+NET "cin" LOC = M18 | IOSTANDARD = LVCMOS33 | PULLUP;  # SW1
+
+
+#################################################################
+# OUTPUTS - LEDs
+#################################################################
+
+# sum[3:0]
+NET "sum[0]" LOC = T18 | IOSTANDARD = LVCMOS33;  # D8
+NET "sum[1]" LOC = T17 | IOSTANDARD = LVCMOS33;  # D7
+NET "sum[2]" LOC = U18 | IOSTANDARD = LVCMOS33;  # D6
+NET "sum[3]" LOC = U17 | IOSTANDARD = LVCMOS33;  # D5
+
+# carry out
+NET "cout" LOC = N16 | IOSTANDARD = LVCMOS33;    # D4
