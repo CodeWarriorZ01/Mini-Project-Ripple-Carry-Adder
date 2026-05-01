@@ -1,0 +1,75 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml rca_4bit.twx rca_4bit.ncd -o rca_4bit.twr rca_4bit.pcf
+
+Design file:               rca_4bit.ncd Physical constraint file: rca_4bit.pcf
+Device,package,speed:     xc6slx9,csg324,C,-3 (PRODUCTION 1.23 2013-10-13) Report level:            
+  verbose report
+
+Environment Variable      Effect
+
+
+
+
+--------------------      ------
+NONE                       No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration. INFO:Timing:3412 - To 
+improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths option. All paths 
+that are not constrained will be reported in the unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a 50 Ohm 
+transmission line loading model.  For the details of this model, and for more information on 
+accounting for different loading conditions, please see the device datasheet.
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>            |cout           |   10.709|
+a<0>            |sum<0>         |   10.056|
+a<0>            |sum<1>         |   10.405|
+a<0>            |sum<2>         |   10.792|
+a<0>            |sum<3>         |   11.285|
+a<1>            |cout           |   10.694|
+a<1>            |sum<1>         |   10.390|
+a<1>            |sum<2>         |   10.777|
+a<1>            |sum<3>         |   11.270|
+a<2>            |cout           |    9.985|
+a<2>            |sum<2>         |   10.061|
+a<2>            |sum<3>         |   10.561|
+a<3>            |cout           |    9.870|
+a<3>            |sum<3>         |   10.446|
+b<0>            |cout           |   10.389|
+b<0>            |sum<0>         |   10.030|
+b<0>            |sum<1>         |   10.085|
+b<0>            |sum<2>         |   10.472|
+b<0>            |sum<3>         |   10.965|
+b<1>            |cout           |   10.297|
+b<1>            |sum<1>         |    9.993|
+b<1>            |sum<2>         |   10.380|
+b<1>            |sum<3>         |   10.873|
+b<2>            |cout           |    9.579|
+b<2>            |sum<2>         |    9.860|
+b<2>            |sum<3>         |   10.155|
+b<3>            |cout           |    9.281|
+b<3>            |sum<3>         |    9.857|
+cin             |cout           |   10.206|
+cin             |sum<0>         |    9.660|
+cin             |sum<1>         |    9.902|
+cin             |sum<2>         |   10.289|
+cin             |sum<3>         |   10.782|
+---------------+---------------+---------+
+Analysis completed Fri May  1 17:42:53 2026
+--------------------------------------------------------------------------------
+Trace Settings:
+-------------------------
+Trace Settings
+Peak Memory Usage: 382 MB
