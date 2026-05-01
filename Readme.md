@@ -6,7 +6,7 @@
 
 ---
 
-* The `4 bit` folder has `post_par_static_timing_report.txt`
+* The `4 bit` folder has `post-par static timing report.txt`
 * This file contains the propagation delay table between source pad and destination pad
 
 ---
