@@ -1,5 +1,12 @@
-## Used for only Mpr purposes
-date:- 24 apr 2026 for mpr2b FPGA based ---> 32 Bit RCA 
+## Used for only MPR purposes
 
---the 4 bit folder has post - par static timig report.txt and 
-  this file has propogation delay table between source pad vs destination pad 
+**Date:** 24 Apr 2026
+
+**For:** MPR2B FPGA-based → 32-bit RCA
+
+---
+
+* The `4 bit` folder has `post_par_static_timing_report.txt`
+* This file contains the propagation delay table between source pad and destination pad
+
+---
